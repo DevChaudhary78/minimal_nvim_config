@@ -6,4 +6,4 @@ require("core.plugin_config.telescope")
 require("core.plugin_config.mason")
 require("core.plugin_config.comments")
 require("core.plugin_config.trouble")
-
+require("core.plugin_config.autopairs")

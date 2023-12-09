@@ -19,6 +19,7 @@ return require('packer').startup(function(use)
 	use 'nvim-lualine/lualine.nvim'
 	use 'nvim-treesitter/nvim-treesitter'
 	use 'williamboman/mason.nvim'
+	use 'windwp/nvim-autopairs'
 	use {
 		'numToStr/comment.nvim',
 		config = function()
