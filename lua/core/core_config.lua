@@ -1,3 +1,4 @@
+-- Relative numbering with numbers on current line
 vim.opt.relativenumber = true
 vim.opt.number = true
 
@@ -6,3 +7,10 @@ vim.o.shiftwidth = 2
 vim.o.softtabstop = 2
 vim.o.tabstop = 2
 vim.o.expandtab = true
+
+-- Set autoindent and smartindent 
+vim.o.autoindent = true
+vim.o.smartindent = true
+
+-- Control formatting
+vim.o.cinoptions = "gO"
