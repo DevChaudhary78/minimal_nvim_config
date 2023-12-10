@@ -21,6 +21,14 @@ return require('packer').startup(function(use)
 	use 'williamboman/mason.nvim'
 	use 'windwp/nvim-autopairs'
 	use {
+		'hrsh7th/nvim-cmp',
+		requires = {
+			'hrsh7th/cmp-buffer',
+			'hrsh7th/cmp-nvim-lsp',
+			'hrsh7th/cmp-path',
+		}
+	}
+	use {
 		'numToStr/comment.nvim',
 		config = function()
 			require('Comment').setup()
