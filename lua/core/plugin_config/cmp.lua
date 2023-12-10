@@ -11,7 +11,8 @@ cmp.setup({
 		{name = "nvim_lsp"},
 		{name = "path"},
 	},
+	mapping = {
+		['<Tab>'] = cmp.mapping.confirm({select = true}),
+		['<S-Tab>'] = cmp.mapping.select_next_item(),
+	}
 })
-
-vim.api.nvim_set_keymap('i', '<Tab>', '<C-n>', { noremap = true, silent = true })
-

@@ -20,6 +20,7 @@ return require('packer').startup(function(use)
 	use 'nvim-treesitter/nvim-treesitter'
 	use 'williamboman/mason.nvim'
 	use 'windwp/nvim-autopairs'
+	use 'neovim/nvim-lspconfig'
 	use {
 		'hrsh7th/nvim-cmp',
 		requires = {
@@ -27,6 +28,8 @@ return require('packer').startup(function(use)
 			'hrsh7th/cmp-nvim-lsp',
 			'hrsh7th/vim-vsnip',
 			'hrsh7th/cmp-path',
+			'hrsh7th/cmp-cmdline',
+			'hrsh7th/cmp-vsnip'
 		}
 	}
 	use {
