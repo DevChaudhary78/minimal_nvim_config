@@ -154,6 +154,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/devchaudhary/.local/share/nvim/site/pack/packer/start/trouble.nvim",
     url = "https://github.com/folke/trouble.nvim"
+  },
+  ["vim-vsnip"] = {
+    loaded = true,
+    path = "/Users/devchaudhary/.local/share/nvim/site/pack/packer/start/vim-vsnip",
+    url = "https://github.com/hrsh7th/vim-vsnip"
   }
 }
 

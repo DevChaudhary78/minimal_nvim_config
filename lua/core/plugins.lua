@@ -25,6 +25,7 @@ return require('packer').startup(function(use)
 		requires = {
 			'hrsh7th/cmp-buffer',
 			'hrsh7th/cmp-nvim-lsp',
+			'hrsh7th/vim-vsnip',
 			'hrsh7th/cmp-path',
 		}
 	}
