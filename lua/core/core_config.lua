@@ -16,3 +16,4 @@ vim.o.smartindent = true
 
 -- Control formatting
 vim.o.cinoptions = "gO"
+
