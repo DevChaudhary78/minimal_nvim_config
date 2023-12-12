@@ -21,6 +21,7 @@ return require('packer').startup(function(use)
   use 'windwp/nvim-autopairs'
   use 'chikko80/error-lens.nvim'
   use 'ggandor/leap.nvim'
+  use 'kylechui/nvim-surround'
   use 'mbbill/undotree'
   use {
     'VonHeikemen/lsp-zero.nvim',
