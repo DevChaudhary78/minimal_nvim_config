@@ -1,4 +1,9 @@
 > The only minimal config I need for Neovim ⚡️
-## Controls
-`<Ctrl> + n` Explore nerdtree on current file. <br>
-`<Leader> + cm` Explore Mason Manager.
+
+## Installation
+```viml
+git clone https://github.com/DevChaudhary78/minimal_nvim_config "${XDG_CONFIG_HOME:-$HOME}/.config"
+```
+
+## Usage
+> Work in Progress 🔧
