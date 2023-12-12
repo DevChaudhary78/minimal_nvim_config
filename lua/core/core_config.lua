@@ -17,3 +17,5 @@ vim.o.smartindent = true
 -- Control formatting
 vim.o.cinoptions = "gO"
 
+-- Put cursor to middle
+vim.o.scrolloff = 8;

@@ -20,6 +20,7 @@ return require('packer').startup(function(use)
   use 'nvim-treesitter/nvim-treesitter'
   use 'windwp/nvim-autopairs'
   use 'chikko80/error-lens.nvim'
+  use 'ggandor/leap.nvim'
   use 'mbbill/undotree'
   use {
     'VonHeikemen/lsp-zero.nvim',

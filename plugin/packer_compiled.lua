@@ -100,6 +100,11 @@ _G.packer_plugins = {
     path = "/Users/devchaudhary/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
     url = "https://github.com/ellisonleao/gruvbox.nvim"
   },
+  ["leap.nvim"] = {
+    loaded = true,
+    path = "/Users/devchaudhary/.local/share/nvim/site/pack/packer/start/leap.nvim",
+    url = "https://github.com/ggandor/leap.nvim"
+  },
   ["lsp-zero.nvim"] = {
     loaded = true,
     path = "/Users/devchaudhary/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
