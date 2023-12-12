@@ -90,10 +90,25 @@ _G.packer_plugins = {
     path = "/Users/devchaudhary/.local/share/nvim/site/pack/packer/start/comment.nvim",
     url = "https://github.com/numToStr/comment.nvim"
   },
+  ["diffview.nvim"] = {
+    loaded = true,
+    path = "/Users/devchaudhary/.local/share/nvim/site/pack/packer/start/diffview.nvim",
+    url = "https://github.com/sindrets/diffview.nvim"
+  },
   ["error-lens.nvim"] = {
     loaded = true,
     path = "/Users/devchaudhary/.local/share/nvim/site/pack/packer/start/error-lens.nvim",
     url = "https://github.com/chikko80/error-lens.nvim"
+  },
+  ["fzf-lua"] = {
+    loaded = true,
+    path = "/Users/devchaudhary/.local/share/nvim/site/pack/packer/start/fzf-lua",
+    url = "https://github.com/ibhagwan/fzf-lua"
+  },
+  ["gitsigns.nvim"] = {
+    loaded = true,
+    path = "/Users/devchaudhary/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
+    url = "https://github.com/lewis6991/gitsigns.nvim"
   },
   ["gruvbox.nvim"] = {
     loaded = true,
@@ -124,6 +139,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/devchaudhary/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
+  },
+  neogit = {
+    loaded = true,
+    path = "/Users/devchaudhary/.local/share/nvim/site/pack/packer/start/neogit",
+    url = "https://github.com/NeogitOrg/neogit"
   },
   ["nvim-autopairs"] = {
     loaded = true,
