@@ -2,7 +2,7 @@
 
 ## Installation
 ```viml
-git clone https://github.com/DevChaudhary78/minimal_nvim_config
+git clone https://github.com/DevChaudhary78/minimal_nvim_config \
 "${XDG_CONFIG_HOME:-$HOME}/.config"
 ```
 
