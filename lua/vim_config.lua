@@ -19,3 +19,6 @@ vim.o.cinoptions = "gO"
 
 -- Put cursor to middle
 vim.o.scrolloff = 8;
+
+vim.opt.relativenumber = true
+vim.opt.number = true
