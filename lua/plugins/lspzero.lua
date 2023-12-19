@@ -67,7 +67,7 @@ return {
       end)
 
       require('mason-lspconfig').setup({
-        ensure_installed = { "phpactor", "rust_analyzer", "html" },
+        ensure_installed = { "rust_analyzer", "clangd" },
         handlers = {
           lsp_zero.default_setup,
           lua_ls = function()
